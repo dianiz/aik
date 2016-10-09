@@ -1,0 +1,74 @@
+@font-face{
+	font-family: 'Antonio';
+	src:('./fonts/script.ttf');
+}
+
+header{
+	background-color: #0071BD; 
+}
+
+body{
+	padding: 20px;
+	background-color: #FFFFFF;
+
+}
+
+section > h1{
+	color:#0071BD;
+	font-family: 'Arial';
+}
+
+section > p{
+	font-size: 16px;
+	font-family: 'Arial';
+}
+
+article > h1{
+	color:#8cC602;
+	font-family: 'Arial';
+}
+
+article{
+	float:left;
+	width:80%;
+}
+
+article > p{
+	color: #000000;
+	font-family: 'Arial';
+	font-size: 16px;	
+}
+
+aside{
+	float: right;
+	width: 20%;
+}
+
+aside > img {
+	border: 5px solid gray;
+}
+
+body > footer{
+	background-color:#0071BD;
+	color:#FFFFFF;
+	font-family: 'Arial';
+	font-size: 14px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+	clear:both;	
+
+}
+
+#logo > h1{
+ color: #8cC602;
+ font-family: 'Arial';
+}
+
+nav > a{
+	color:white;
+	font-size:16px;
+	font-family: 'Arial';
+	font-weight: bold;
+
+}
